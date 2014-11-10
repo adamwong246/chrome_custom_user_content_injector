@@ -1,0 +1,3 @@
+*:not(.icon):not(i):not(textarea):not(input) {
+  border-color: transparent !important;
+}

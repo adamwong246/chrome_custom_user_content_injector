@@ -1,9 +1,9 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
-  "version": "0.0.1",
+  "name": "Chrome custom user content script injector (adamwong246)",
+  "version": "0.0.2",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
-  "homepage_url": "http://extensionizr.com",
+  "description": "The personal Chrome extension of adamwong246",
+  "homepage_url": "https://github.com/adamwong246/chrome_custom_user_content_injector",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -24,7 +24,8 @@
         "<all_urls>"
       ],
       "css": [
-        "src/inject/inject.css"
+        "src/inject/no_shadows.css",
+        "src/inject/no_borders.css"
       ]
     }
   ]

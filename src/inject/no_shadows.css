@@ -1,0 +1,6 @@
+*:not(.icon):not(i),
+*:not(.icon):not(i):after,
+*:not(.icon):not(i):before{
+  box-shadow:none !important;
+  text-shadow:none !important ;
+}
